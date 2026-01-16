@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "assets": {
+    "directory": "frontend/dist"
+  },
+  "functions": {
+    "directory": "functions"
+  },
+  "routes": [
+    {
+      "pattern": "/api/ai",
+      "function": "api/ai"
+    },
+    {
+      "pattern": "/api/save",
+      "function": "api/save"
+    },
+    {
+      "pattern": "/api/leaderboard",
+      "function": "api/leaderboard"
+    }
+  ]
+}
