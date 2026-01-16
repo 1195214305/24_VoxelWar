@@ -3,6 +3,7 @@ import { Sky } from '@react-three/drei'
 import { VoxelWorld } from './VoxelWorld'
 import { PlayerController } from './PlayerController'
 import { WeaponSystem } from './WeaponSystem'
+import { EnemySystem } from './EnemySystem'
 import { useGameStore } from '../store/gameStore'
 
 export function GameScene() {
@@ -22,6 +23,7 @@ export function GameScene() {
           <VoxelWorld />
           <PlayerController />
           <WeaponSystem />
+          <EnemySystem />
         </>
       )}
 
